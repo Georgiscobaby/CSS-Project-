@@ -1,0 +1,132 @@
+*{box-sizing: border-box;
+margin: 0%;
+padding: 0%;}
+
+.nav{
+    background-color: rgb(48, 218, 218);
+    height: 20px;
+    color: rgb(20, 14, 5);
+    border: 2px solid rgb(48, 218, 218);
+    box-sizing: border-box;
+}
+
+.nav div{
+text-align: left;
+font-size:large ;
+display: inline-block;
+position: absolute;
+font-weight:bolder ;
+}
+img.background{
+    position:absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0 ;
+    bottom: 0;
+    filter: blur(5px);
+    
+}
+
+.nav ul{
+    position: absolute;
+    right: 10px;
+    font-weight: bolder;
+    font-size: large;
+    top: 5px;
+    background-color: rgb(48, 218, 218);
+    right: 0;
+}
+.nav ul li{
+    list-style-type: none;
+    display:block;
+    padding: 5px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    
+    color:rgb(20, 14, 5)
+    
+}
+.text-container {
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height:300px ;
+    
+}
+
+
+.text-container div{
+    font-weight: bolder;
+    font-size: smaller;
+    color:rgb(20, 14, 5);
+    background-color: rgb(48, 218, 218);
+    border: 5px solid rgb(48, 218, 218);
+
+}
+
+.about-content{
+    
+    margin: 0 auto;
+    width: 300px;
+}
+
+
+.about-content h1{
+    text-align: center;
+    color: rgb(48, 218, 218);
+}
+
+.about-content p{
+    text-align: justify;
+    font-weight: bold;
+}
+
+.service-content{
+
+    text-align: center;
+    color: rgb(48, 218, 218);
+    font-size: small;
+    margin-top: 5px
+}
+.card-container ul{
+    padding: 0%;
+
+}
+.card-container ul li{
+    width: 200px;
+    align-items: center;
+margin: 20px;
+display: inline-block;
+margin-left: 100px;
+}
+.card-container ul li img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.card-container ul li p{
+    text-align: justify;
+    font-weight: bold;
+}
+
+.contact-content h1{
+    color: rgb(48, 218, 218);
+    text-align: center;
+}
+
+.contact-content p{
+    text-align: center;
+}
+.contact-content h4{
+    text-align: center;
+}
+
+.nav ul a:hover{
+    color: azure;
+    background-color: black;
+}

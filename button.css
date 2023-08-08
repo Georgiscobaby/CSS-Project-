@@ -1,0 +1,143 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}/*
+
+.buttons{
+    
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(139, 128, 128);
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    appearance: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(54, 51, 51);
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid;
+}
+
+button:hover{
+    color: #fff;
+    outline:0 ;
+
+}
+
+.button1{
+transition: box-shadw 300ms ease-in-out color 300ms ease-in-out;
+border:5px solid red;
+color: white;
+background-color: red;
+}
+.button1:hover{
+box-shadow: 10px 10px 20px red ;
+border: none;
+background-color: white;
+color: red;
+}
+
+body{
+    background-color: white;
+}
+
+.button2{
+    background-image:linear-gradient(
+        to left ,rgb(6, 61, 6) 25%, rgb(30, 233, 30) 50%,rgb(6 61 6)
+  75%  );
+    color: black;
+
+    border-radius:50%;
+    border: 5px solid rgb(30, 233, 30)
+
+}
+.button2:hover{
+    color: rgb(30, 233, 30);
+
+    border: 5px solid green;
+    box-shadow: 10px 10px 20px;
+    background-color: white;
+    transition: 300ms ease-in-out;
+    position: 0 0;
+    size: 100%;
+}
+
+.button3{
+    border:5px solid rgb(53, 138, 249);
+    color: #fff;
+    background-color: rgb(53, 138, 249);
+     transition: all 150ms ease-in-out;
+     border-radius: 20px;
+}
+.button3:hover{
+    box-shadow: 0 0 10px 4px rgb(53, 138, 249) ;
+    background-color: black;
+
+}
+
+.button4{
+
+border: 5px solid yellow;
+border-radius: 0;
+background-color: yellow;
+transition: all 300ms ease-in-out ;
+}
+
+.button4:hover{
+    background-color: rgb(255, 255, 0,0.4);
+    
+    border: 0;
+}
+
+.button5{
+
+    border: 5px solid purple;
+    border-radius: 0;
+    color: purple;
+    z-index: 1;
+    transition: color 150ms ease-in-out;
+    
+}
+
+.button5:hover{
+    
+    transform: translateX(-50%);
+    background-color: purple;
+    z-index: 1;
+    transition: width 150ms ease-in-out;
+}
+
+.button6{
+
+border-radius: 30px/60%;
+background-image: linear-gradient(
+    to bottom, white 50%,grey 50%
+);
+border-top: 5px solid black;
+border-bottom: 5px solid white;
+color: black;
+
+}
+.button6:hover{
+   color: aqua; 
+   border-top: aqua;
+   border-bottom: aqua;
+   transform: translateX(60deg);
+}*/
+
+
+
+
